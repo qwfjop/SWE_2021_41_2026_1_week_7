@@ -5,3 +5,4 @@ def twoSum(nums: List[int], target: int) -> List[int]:
         for j in range(len(nums)):
             if nums[i] + nums[j] == target:
                 return [i, j]
+    return
